@@ -72,10 +72,10 @@ jobs:
         goversion:
           - 1.18.1
         language:
-          - nodejs
-          - python
+          # - nodejs
+          # - python
           - dotnet
-          - go
+          # - go
         nodeversion:
           - 14.x
         pythonversion:
