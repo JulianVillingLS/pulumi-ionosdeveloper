@@ -11,6 +11,7 @@
     "license": "Apache-2.0",
     "attribution": "This Pulumi package is based on the [`ionosdeveloper` Terraform Provider](https://github.com/ionos-developer/terraform-provider-ionosdeveloper).",
     "repository": "https://github.com/JulianVillingLS/pulumi-ionosdeveloper",
+    "pluginDownloadURL": "https://github.com/JulianVillingLS/pulumi-ionosdeveloper/releases/",
     "publisher": "JulianVillingLS",
     "meta": {
         "moduleFormat": "(.*)(?:/[^/]*)"
@@ -22,12 +23,12 @@
             "packageReferences": {
                 "Pulumi": "3.*"
             },
-            "rootNamespace": "Pulumi.Extensions"
+            "rootNamespace": "PulumiExtensions"
         },
         "go": {
             "generateExtraInputTypes": true,
             "generateResourceContainerTypes": true,
-            "importBasePath": "github.com/pulumi/pulumi-ionosdeveloper/sdk/go/ionosdeveloper"
+            "importBasePath": "github.com/JulianVillingLS/pulumi-ionosdeveloper/sdk/go/ionosdeveloper"
         },
         "nodejs": {
             "compatibility": "tfbridge20",
